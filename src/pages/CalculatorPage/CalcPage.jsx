@@ -29,6 +29,18 @@ function CalculatorPage() {
               Between 35 - 37
             </label>
           </div>
+          <div className="age-options">
+            <label>
+              <input type="radio" name="age" value="between35-37" />
+              Between 38 - 40
+            </label><label>
+              <input type="radio" name="age" value="between35-37" />
+              Between 41 - 43
+            </label><label>
+              <input type="radio" name="age" value="between35-37" />
+              Above 43
+            </label>
+          </div>
         </div>
         <div className="scroll-div">
           <h1>Number of IVF Cycles?</h1>
